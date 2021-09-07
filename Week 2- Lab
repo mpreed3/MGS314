@@ -1,0 +1,11 @@
+x = "Im a UB Student"
+print(x[0])
+print(x[5])
+print(x[-1])
+
+whoops = ['I', 'promise', 'I', 'understand','Python', 'I', 'just', 'didnt', 'know', 'I', 'wasnt', 'supposed', 'to', 'delete', 'everything', 'as', 'we', 'moved','on']
+
+def yes(whoops):
+    for i in whoops:
+        print (i)
+yes(whoops)
